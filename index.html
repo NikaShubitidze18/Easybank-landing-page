@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Navbar</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+        <!-- Script js -->
+<script src="script.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.svg" alt="Logo">
+      </a>
+
+      <!-- Toggler for mobile devices -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Careers</a>
+          </li>
+        </ul>
+        <!-- Contact Us button -->
+        <a href="#" class="custom-btn">Contact Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Next generation <br> digital banking</h1>
+        <p>
+          Take your financial life online. Your Easybank account will be a
+          one-stop-shop for spending, saving, budgeting, investing, and much more.
+        </p>
+        <button class="btn bg-primary-subtle button-request rounded-pill">Request Invite</button>
+      </div>
+      <div class="hero-image">
+        <div class="phone-container">
+          <!-- Background Shape -->
+          <img src="images/bg-intro-desktop.svg" alt="Background Shape" class="background">
+          <!-- Phone Mockups -->
+          <img src="images/image-mockups.png" alt="Phone Mockups" class="phone phone-1">
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+      <h2>Why choose Easybank?</h2>
+      <p>
+        We leverage Open Banking to turn your bank account into your financial hub.
+        Control your finances like never before.
+      </p>
+      <div class="features-grid">
+        <div class="feature-item">
+          <img src="images/icon-online.svg" alt="Online Banking">
+          <h3>Online Banking</h3>
+          <p>
+            Our modern web and mobile applications allow you to keep track of your
+            finances wherever you are in the world.
+          </p>
+        </div>
+        <div class="feature-item">
+          <img src="images/icon-budgeting.svg" alt="Simple Budgeting">
+          <h3>Simple Budgeting</h3>
+          <p>
+            See exactly where your money goes each month. Receive notifications when
+            you're close to hitting your limits.
+          </p>
+        </div>
+        <div class="feature-item">
+          <img src="images/icon-onboarding.svg" alt="Fast Onboarding">
+          <h3>Fast Onboarding</h3>
+          <p>
+            We don't do branches. Open your account in minutes online and start
+            taking control of your finances right away.
+          </p>
+        </div>
+        <div class="feature-item">
+          <img src="images/icon-online.svg" alt="Open API">
+          <h3>Open API</h3>
+          <p>
+            Manage your savings, investments, pension, and much more from one account.
+            Tracking your money has never been easier.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest Articles Section -->
+    <div class="container">
+      <h2>Latest Articles</h2>
+      <div class="articles">
+        <div class="article">
+          <img src="images/image-currency.jpg" alt="Article 1">
+          <div class="article-content">
+            <h3>Receive money in any currency with no fees</h3>
+            <p>The world is getting smaller, and we’re becoming more mobile. So why should you be forced to only receive money...</p>
+            <p class="author">By Claire Robinson</p>
+          </div>
+        </div>
+        <div class="article">
+          <img src="images/image-restaurant.jpg" alt="Article 2">
+          <div class="article-content">
+            <h3>Treat yourself without worrying about money</h3>
+            <p>Our simple budgeting feature allows you to separate out your spending and set realistic limits each month...</p>
+            <p class="author">By Wilson Hutton</p>
+          </div>
+        </div>
+        <div class="article">
+          <img src="images/image-plane.jpg" alt="Article 3">
+          <div class="article-content">
+            <h3>Take your Easybank card wherever you go</h3>
+            <p>We want you to enjoy your travels. This means we’ll keep you informed about your finances wherever you are...</p>
+            <p class="author">By Wilson Hutton</p>
+          </div>
+        </div>
+        <div class="article">
+          <img src="images/image-confetti.jpg" alt="Article 4">
+          <div class="article-content">
+            <h3>Our invite-only Beta accounts are now live!</h3>
+            <p>After a lot of hard work by the whole team, we’re excited to launch our closed beta. It’s easy to request an invite...</p>
+            <p class="author">By Claire Robinson</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="logo-section">
+      <img src="images/logo.svg" alt="Easybank Logo">
+      <div class="social-icons">
+        <a href="#"><img src="images/icon-facebook.svg" alt="Facebook"></a>
+        <a href="#"><img src="images/icon-twitter.svg" alt="Twitter"></a>
+        <a href="#"><img src="images/icon-pinterest.svg" alt="Pinterest"></a>
+        <a href="#"><img src="images/icon-youtube.svg" alt="YouTube"></a>
+      </div>
+    </div>
+    <div class="links">
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+    </div>
+    <div class="links">
+      <ul>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <div class="invite">
+      <button>Request Invite</button>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
